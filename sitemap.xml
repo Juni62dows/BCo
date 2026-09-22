@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://benderchat.online/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/pl/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/id/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/" />
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/game/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/game/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/game/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/game/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/game/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/game/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/game/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/game/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/races/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/races/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/races/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/races/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/races/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/races/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/races/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/races/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/server/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/server/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/server/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/server/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/server/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/server/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/server/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/server/" />
+    <changefreq>hourly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/downloads/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/downloads/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/downloads/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/downloads/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/downloads/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/downloads/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/downloads/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/downloads/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/news/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/news/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/news/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/news/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/news/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/news/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/news/" />
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://benderchat.online/zh/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://benderchat.online/about/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://benderchat.online/en/about/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://benderchat.online/pl/about/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://benderchat.online/id/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://benderchat.online/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://benderchat.online/zh/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://benderchat.online/about/" />
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
