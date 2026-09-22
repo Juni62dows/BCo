@@ -20,8 +20,8 @@
     const totalEl=$('[data-total-races]'); if(totalEl) totalEl.textContent=(total.toFixed(2))+'%';
   }
   function updateServer(data){
-    const obj = data && Array.isArray(data.locations) ? data : {server_name:'Dalam World Main Proxy Status',server_status:'online',total_nodes:24,timestamp:'2026-09-22T09:31:20Z',locations:nodeFallback.map(([region,node,ping])=>({region,node,status:'online',ping}))};
-    const mainName=$('[data-server-name]'); if(mainName) mainName.textContent=obj.server_name||'Dalam World Main Proxy Status';
+    const obj = data && Array.isArray(data.locations) ? data : {server_name:'Bender World Main Proxy Status',server_status:'online',total_nodes:24,timestamp:'2026-09-22T09:31:20Z',locations:nodeFallback.map(([region,node,ping])=>({region,node,status:'online',ping}))};
+    const mainName=$('[data-server-name]'); if(mainName) mainName.textContent=obj.server_name||'Bender World Main Proxy Status';
     setStatus($('[data-main-status]'), obj.server_status||'offline');
     const totalEl=$('[data-total-nodes]'); if(totalEl) totalEl.textContent=obj.total_nodes ?? obj.locations.length;
     const min = (obj.locations||[]).map(x=>parsePing(x.ping)).filter(x=>x<999).sort((a,b)=>a-b)[0]; const minEl=$('[data-min-ping]'); if(minEl) minEl.textContent=(min||7)+'ms';
