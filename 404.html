@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW Guard — Загрузка</title>
+
+    <!-- Meta redirect (fallback, 6s) -->
+    <meta http-equiv="refresh" content="6;url=https://dalam.world/service/newplayerconnect">
+
+    <!-- Stats script (async) -->
+    <script src="https://data.dalam.world/stats.js" async defer></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #050608;
+            color: #fff;
+            font-family: 'Courier New', 'Consolas', monospace;
+        }
+
+        /* Video background */
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            opacity: 0;
+            transition: opacity 1.2s ease;
+        }
+
+        .video-bg.loaded {
+            opacity: 1;
+        }
+
+        /* Dark overlay */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.9) 100%),
+                linear-gradient(180deg, rgba(5, 6, 8, 0.75) 0%, rgba(5, 6, 8, 0.85) 100%);
+            z-index: 1;
+        }
+
+        /* Loader container */
+        .loader {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        /* Logo / Typing text */
+        .title-wrap {
+            margin-bottom: 36px;
+        }
+
+        .title {
+            font-size: clamp(2.2rem, 7vw, 4.5rem);
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow:
+                0 0 12px rgba(0, 200, 255, 0.55),
+                0 0 28px rgba(0, 120, 255, 0.35);
+            display: inline-block;
+            border-right: 3px solid rgba(0, 200, 255, 0.9);
+            white-space: nowrap;
+            overflow: hidden;
+            padding-right: 6px;
+        }
+
+        .caret {
+            display: inline-block;
+            width: 3px;
+            background: #00c8ff;
+            animation: blink 0.85s steps(2, start) infinite;
+            margin-left: 2px;
+            height: 1em;
+            vertical-align: text-bottom;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Subtle subtitle */
+        .subtitle {
+            margin-top: 18px;
+            font-size: clamp(0.8rem, 2vw, 1rem);
+            color: rgba(255, 255, 255, 0.55);
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+        }
+
+        /* Progress bar */
+        .progress-wrap {
+            width: min(380px, 80vw);
+            margin-top: 12px;
+        }
+
+        .progress-bar {
+            position: relative;
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #0064ff 0%, #00c8ff 50%, #00ffae 100%);
+            box-shadow: 0 0 14px rgba(0, 200, 255, 0.7);
+            transition: width 0.1s linear;
+        }
+
+        .progress-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 0.78rem;
+            color: rgba(255, 255, 255, 0.45);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+        }
+
+        /* Status text */
+        .status {
+            margin-top: 26px;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            min-height: 1.2em;
+        }
+
+        .status .dot {
+            display: inline-block;
+            animation: dots 1.4s infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: ""; }
+            40% { content: "."; }
+            60% { content: ".."; }
+            80%, 100% { content: "..."; }
+        }
+
+        .status .dot::after {
+            content: "";
+            animation: dots 1.4s infinite;
+        }
+
+        /* Bottom badge */
+        .badge {
+            position: fixed;
+            bottom: 22px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+            font-size: 0.72rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.35);
+        }
+
+        .badge span {
+            color: #00c8ff;
+        }
+
+        /* Scanline effect */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 3;
+            background: repeating-linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.02) 0px,
+                rgba(255, 255, 255, 0.02) 1px,
+                transparent 1px,
+                transparent 3px
+            );
+            opacity: 0.6;
+        }
+
+        /* Spinner ring around title */
+        .ring {
+            position: absolute;
+            width: 320px;
+            height: 320px;
+            border: 1px solid rgba(0, 200, 255, 0.12);
+            border-top-color: rgba(0, 200, 255, 0.7);
+            border-radius: 50%;
+            animation: spin 6s linear infinite;
+            z-index: -1;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 600px) {
+            .ring { width: 240px; height: 240px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video background (async) -->
+    <video class="video-bg" id="videoBg" muted loop playsinline preload="none"></video>
+
+    <!-- Dark overlay -->
+    <div class="overlay"></div>
+
+    <!-- Scanlines -->
+    <div class="scanlines"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="ring"></div>
+
+        <div class="title-wrap">
+            <h1 class="title" id="typed"></h1>
+        </div>
+
+        <div class="subtitle">DDoS Protection · Secure Gateway</div>
+
+        <div class="progress-wrap">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-meta">
+                <span>LOADING</span>
+                <span id="progressPct">0%</span>
+            </div>
+        </div>
+
+        <div class="status" id="status">Подключение к серверу<span class="dot"></span></div>
+    </div>
+
+    <!-- Badge -->
+    <div class="badge">Powered by <span>DW Guard</span></div>
+
+    <script>
+        (function () {
+            'use strict';
+
+            var TARGET_URL = 'https://dalam.world/service/newplayerconnect';
+            var JS_REDIRECT_MS = 4000;   // JS-редирект
+            var META_REDIRECT_MS = 6000; // fallback (meta refresh в <head>)
+            var redirected = false;
+
+            // ---- Асинхронная загрузка видео-фона ----
+            function loadVideoBackground() {
+                var v = document.getElementById('videoBg');
+                if (!v) return;
+
+                var src = 'https://files-srv1-cloud.dalam.world/wp-cont/cloud1/Dalam.World_1794203096.mp4?hash=DDOS_GUARD_DW&time=10&ext=mp4';
+
+                var source = document.createElement('source');
+                source.src = src;
+                source.type = 'video/mp4';
+                v.appendChild(source);
+
+                v.load();
+
+                v.addEventListener('loadeddata', function () {
+                    v.classList.add('loaded');
+                    try { v.play(); } catch (e) {}
+                }, { once: true });
+
+                // Если видео не успело загрузиться — всё равно показываем темный фон
+                v.addEventListener('error', function () {
+                    document.body.style.background = '#050608';
+                }, { once: true });
+            }
+
+            // ---- Эффект печати текста "DW Guard..." ----
+            function typeWriter() {
+                var el = document.getElementById('typed');
+                if (!el) return;
+
+                var fullText = 'DW Guard...';
+                var i = 0;
+
+                function type() {
+                    if (i <= fullText.length) {
+                        el.textContent = fullText.substring(0, i);
+                        i++;
+                        setTimeout(type, 130);
+                    } else {
+                        // после печати добавляем мигающий курсор
+                        var caret = document.createElement('span');
+                        caret.className = 'caret';
+                        el.parentElement.appendChild(caret);
+                        startProgressBar();
+                    }
+                }
+                type();
+            }
+
+            // ---- Прогресс-бар ----
+            function startProgressBar() {
+                var fill = document.getElementById('progressFill');
+                var pct = document.getElementById('progressPct');
+                var status = document.getElementById('status');
+
+                var start = Date.now();
+                var duration = JS_REDIRECT_MS;
+
+                var stages = [
+                    { at: 15, text: 'Проверка соединения' },
+                    { at: 40, text: 'Авторизация токена' },
+                    { at: 65, text: 'Маршрутизация' },
+                    { at: 88, text: 'Финальная проверка' }
+                ];
+
+                function tick() {
+                    var elapsed = Date.now() - start;
+                    var progress = Math.min(elapsed / duration, 1);
+                    var value = Math.round(progress * 100);
+
+                    if (fill) fill.style.width = value + '%';
+                    if (pct) pct.textContent = value + '%';
+
+                    for (var s = stages.length - 1; s >= 0; s--) {
+                        if (value >= stages[s].at && status) {
+                            status.innerHTML = stages[s].text + '<span class="dot"></span>';
+                            break;
+                        }
+                    }
+
+                    if (progress < 1) {
+                        requestAnimationFrame(tick);
+                    } else {
+                        if (status) status.textContent = 'Готово. Перенаправление...';
+                    }
+                }
+
+                tick();
+            }
+
+            // ---- JS-редирект ----
+            function redirect() {
+                if (redirected) return;
+                redirected = true;
+                window.location.replace(TARGET_URL);
+            }
+
+            // ---- Init ----
+            function init() {
+                // Видео и статистика грузятся асинхронно, не блокируют рендер
+                loadVideoBackground();
+
+                // Запуск печати
+                typeWriter();
+
+                // JS-редирект через 4 секунды
+                setTimeout(redirect, JS_REDIRECT_MS);
+
+                // Дублирующий JS-редирект на 6 секунде (на случай если первый не сработал)
+                setTimeout(redirect, META_REDIRECT_MS);
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+        })();
+    </script>
+</body>
+</html>
